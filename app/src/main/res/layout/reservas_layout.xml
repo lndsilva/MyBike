@@ -13,7 +13,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_margin="20sp"
         android:text="Reserva"
-        android:textColor="#000"
+        android:textColor="#E64A19"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -22,5 +22,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabReservar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_baseline_add" />
+
 
 </LinearLayout>
